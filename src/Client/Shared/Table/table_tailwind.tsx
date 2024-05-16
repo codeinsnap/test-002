@@ -1,0 +1,23 @@
+export const commonTableMetricStyle = {
+    tableBody: 'block  overflow-auto',
+    tableBodyStallStatus: 'block',
+    tBodyTr: 'table table-fixed w-full',
+    outerContainer: 'flex flex-col',
+    outerContainerOverflow: 'overflow-x-auto',
+    containerWidth: 'inline-block min-w-full',
+    wrapperOverflow: 'overflow-hidden',
+    bgColorGrey: 'bg-grey3',
+    bgColorWhite: 'bg-white',
+    tableWrapper: 'min-w-full text-left text-sm font-toyota',
+    tableHead: 'bg-white text-sm commonTable-thead-width',
+    tableData: 'whitespace-nowrap pr-3.5 py-4 pl-3',
+    exceptionSummaryReasonTableData: 'pr-3.5 py-4 pl-3',
+    exceptionSummaryCountTableData: 'pr-3.5 py-4 pl-3 w-20',
+    tableDataAsset: 'whitespace-nowrap py-4 pl-4',
+    tableDataBtnPlus: 'text-black rounded-full font-medium px-1.5 py-.5 text-center inline-flex items-center mr-2 border-2 border-solid border-black',
+    tableDataBtnMinus: 'text-black rounded-full font-medium px-1.5 py-.5 text-center inline-flex items-center ml-2 border-2 border-solid border-black',
+    tableDataSpan: 'text-black bg-white rounded font-medium px-4 py-1 text-center inline-flex items-center mx-1 border border-solid border-black',
+    stallStatusFlagMargin: 'mt-1',
+    flagMargin: 'mt-2',
+    centerAlign : 'text-center'
+}
