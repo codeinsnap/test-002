@@ -76,8 +76,8 @@ export type TTimeLineItem = {
   prod_line: string;
   itemData: TPlannedData;
   prevtime: string | {
-      start: string;
-      end: string;
+    start: string;
+    end: string;
   };
 }
 export type TBreak = {
@@ -102,3 +102,20 @@ export type TSelectedFilters = {
   fromTime: string;
   toTime: string;
 };
+
+
+export type TTimeline = {
+  id: number;
+  group: number;
+  title: string;
+  start_time: Date;
+  end_time: Date;
+  prod_line: string;
+  itemData: TPlannedData;
+  prevtime: string | {
+    start?: string | undefined;
+    end?: string | undefined;
+    actual_start?: string | undefined;
+    actual_end?: string | undefined;
+  };
+}
